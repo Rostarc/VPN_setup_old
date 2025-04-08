@@ -10,7 +10,7 @@
 # Установка
 Скопируйте эту комнду и следуйте инструкциям чтобы выполнить скрипт на своем оборудовании:
 ```bash
-wget https://raw.githubusercontent.com/vpn-vendor/VPN_setup_old/main/server_setup.sh -O server_setup.sh && sudo bash server_setup.sh
+wget https://raw.githubusercontent.com/vpn-vendor/vpn_16.04/main/vpn.sh -O vpn.sh && sudo bash vpn.sh
 ```
 # Программы
 Скрипт выполняет автоматическое обновление системы и установку таких программ:
