@@ -13,6 +13,12 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
+# Смена зеркал на глобальные
+echo ""
+echo "[*] Смена зеркал на глобальные..."
+echo ""
+sed -i 's|http://ru.archive.ubuntu.com/ubuntu|http://archive.ubuntu.com/ubuntu|g' /etc/apt/sources.list
+
 echo ""
 echo "Выбери опцию (вписав цифру и нажав enter):"
 echo "1) Установить и настроить сервер"
